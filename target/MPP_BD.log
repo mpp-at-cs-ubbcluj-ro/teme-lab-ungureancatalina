@@ -1,0 +1,20 @@
+10 Mar 2025 17:18:28,760 INFO  ro.mpp2024.CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqllite:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db} 
+10 Mar 2025 17:19:58,053 INFO  ro.mpp2024.CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqllite:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db} 
+10 Mar 2025 17:21:05,710 INFO  ro.mpp2024.CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqllite:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db} 
+10 Mar 2025 17:21:05,729 TRACE ro.mpp2024.CarsDBRepository 76 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 17:21:05,730 TRACE ro.mpp2024.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 17:21:05,730 TRACE ro.mpp2024.JdbcUtils 24 getNewConnection - Enter
+10 Mar 2025 17:21:05,730 INFO  ro.mpp2024.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqllite:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db
+10 Mar 2025 17:21:05,730 INFO  ro.mpp2024.JdbcUtils 30 getNewConnection - user: null
+10 Mar 2025 17:21:05,731 INFO  ro.mpp2024.JdbcUtils 31 getNewConnection - pass: null
+10 Mar 2025 17:21:05,738 ERROR ro.mpp2024.JdbcUtils 40 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqllite:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db
+10 Mar 2025 17:21:05,738 TRACE ro.mpp2024.JdbcUtils 56 getConnection - Exit
+10 Mar 2025 17:27:45,261 INFO  ro.mpp2024.CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqllite:/C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db} 
+10 Mar 2025 17:27:45,271 TRACE ro.mpp2024.CarsDBRepository 76 add - Enter Adding a car Id=0 Tesla Model S 2019
+10 Mar 2025 17:27:45,271 TRACE ro.mpp2024.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 17:27:45,271 TRACE ro.mpp2024.JdbcUtils 24 getNewConnection - Enter
+10 Mar 2025 17:27:45,271 INFO  ro.mpp2024.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqllite:/C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db
+10 Mar 2025 17:27:45,272 INFO  ro.mpp2024.JdbcUtils 30 getNewConnection - user: null
+10 Mar 2025 17:27:45,272 INFO  ro.mpp2024.JdbcUtils 31 getNewConnection - pass: null
+10 Mar 2025 17:27:45,280 ERROR ro.mpp2024.JdbcUtils 40 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqllite:/C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/act_lab3/cars.db
+10 Mar 2025 17:27:45,280 TRACE ro.mpp2024.JdbcUtils 56 getConnection - Exit
