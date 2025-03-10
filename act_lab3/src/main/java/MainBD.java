@@ -11,7 +11,7 @@ public class MainBD {
 
         Properties props=new Properties();
         try {
-            props.load(new FileReader("C:/Users/ungur/OneDrive/Desktop/facultate_materiale/AN_2/SEM_2/mpp/activitate lab/tema1/bd.config"));
+            props.load( MainBD.class.getClassLoader().getResourceAsStream("bd.config"));
         } catch (IOException e) {
             System.out.println("Cannot find bd.config "+e);
         }
