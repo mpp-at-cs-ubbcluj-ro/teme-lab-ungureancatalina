@@ -5,6 +5,9 @@
       <module name="act_lab3" target="21" />
       <module name="act_lab3.main" target="21" />
       <module name="act_lab3.test" target="21" />
+      <module name="act_lab4" target="21" />
+      <module name="act_lab4.main" target="21" />
+      <module name="act_lab4.test" target="21" />
       <module name="activitate_lab3" target="21" />
       <module name="activitate_lab3.main" target="21" />
       <module name="activitate_lab3.test" target="21" />
